@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.9'
+gem 'pg', '0.12.2'
+gem 'bootstrap-sass', '2.1'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -31,8 +33,6 @@ group :test do
   gem 'rb-fsevent', '0.9.1', :require => false
   gem 'growl', '1.0.3'
 end
-
-gem 'pg', '0.12.2'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
